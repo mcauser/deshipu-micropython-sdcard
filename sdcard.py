@@ -259,4 +259,4 @@ def esp8266_mount():
     import uos
     spi = SPI(-1, miso=Pin(12), mosi=Pin(13), sck=Pin(14))
     sd = sdcard.SDCard(spi, Pin(15))
-    uos.VfsFat(sd, "")
+    return uos.VfsFat(sd, "")
