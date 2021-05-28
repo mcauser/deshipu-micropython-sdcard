@@ -1,3 +1,5 @@
+Fork of the now archived https://bitbucket.org/thesheep/micropython-sdcard
+
 SD Card driver for ESP8266 MicroPython
 **************************************
 
